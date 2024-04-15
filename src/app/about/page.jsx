@@ -5,11 +5,11 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h2 className={}>About me</h2>
-        <h1>
+        <h2 className={styles.subtitle}>About me</h2>
+        <h1 className={styles.title}>
           I create digital ideas that are bigger, bolder, braver and better.
         </h1>
-        <p>
+        <p className={styles.desc}>
           Welcome to my portfolio. In a world where technology constantly
           evolves, I thrive on harnessing its power to create meaningful
           experiences. With a blend of technical expertise and artistic vision,
@@ -42,11 +42,22 @@ const AboutPage = () => {
             <h1>10 K+</h1>
             <p>Years of experience</p>
           </div>
+          <div className={styles.box}>
+            <h1>10 K+</h1>
+            <p>Years of experience</p>
+          </div>
+          <div className={styles.box}>
+            <h1>10 K+</h1>
+            <p>Years of experience</p>
+          </div>
         </div>
       </div>
 
       <div className={styles.imgContainer}>
-        <Image src="/about.png" alt="about picture" fill />
+        <Image src="/about.png" alt="about picture" fill
+          sizes="(max-width: 768px) 80vw, (max-width: 1200px) 40vw, 23vw"
+           className={styles.img}
+           />
       </div>
     </div>
   );
