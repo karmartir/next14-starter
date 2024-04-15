@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1>Garen Martirosyan</h1>
-        <p>
+        <h1 className={styles.title}>Garen Martirosyan</h1>
+        <p className={styles.desc}>
           A passionate Software Developer and creative UI/UX designer. I thrive
           at the intersection of code and design, crafting seamless digital
           experiences that captivate users.
