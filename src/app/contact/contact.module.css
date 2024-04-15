@@ -28,3 +28,12 @@
   background-color: var(--bgSoft);
   color: var(--text);
 }
+.form button{
+    padding: 20px;
+    background-color: var(--btn);
+    color: var(--text);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
