@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.container}>
-     <Link href='/' className={styles.logo}>Logo</Link>
+     <Link href='/' className={styles.logo}>"Kar<span style={{color: 'darkred'}}>M</span>a"</Link>
      <div>
        <Links/>
      </div>
