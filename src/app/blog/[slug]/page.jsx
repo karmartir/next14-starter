@@ -30,9 +30,9 @@ const SinglePostPage = async ({ params }) => {
             width={50}
             height={50}
           />
-          <Suspense fallback={<div>Loading...</div>} />
+          <Suspense fallback={<div>Loading...</div>}>
           <PostUser userId={post.userId} />
-
+          </Suspense>
           <div className={styles.detailText}>
             <span className={styles.detailTitle}>Published</span>
             <span className={styles.detailValue}>01.01.2024</span>
