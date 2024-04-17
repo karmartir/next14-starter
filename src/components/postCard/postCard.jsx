@@ -20,7 +20,7 @@ const PostCard = ({ post }) => {
           Implemented features include product listings, shopping cart
           functionality, and secure checkout processes. */}
         </p>
-        <Link className={styles.link} href="/blog/post">
+        <Link className={styles.link} href={`/blog/${post.id}`}>
           Read more...
         </Link>
       </div>
