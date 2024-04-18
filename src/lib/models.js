@@ -53,7 +53,6 @@ const postSchema = new mongoose.Schema({
         unique: true
     }
 
-
 }, {timeseries: true});
 
 export const User = mongoose.models.User || mongoose.model("User", userSchema)
