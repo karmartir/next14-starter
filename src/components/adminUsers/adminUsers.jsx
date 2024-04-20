@@ -2,8 +2,8 @@ import styles from './adminUsers.module.css';
 
 const AdminUsers = () => {
     return (
-        <div>
-            
+        <div className={styles.container}>
+            AdminUsers
         </div>
     );
 };
