@@ -3,7 +3,7 @@ import styles from "./admin.module.css";
 import AdminPosts from "@/components/adminPosts/adminPosts";
 import AdminPostForm from "@/components/adminPostForm/adminPostForm";
 import AdminUsers from "@/components/adminUsers/adminUsers";
-import AdminUserForm from "@/components/adminUserForm/adminUserForm";
+import AdminUserForm from "@/components/adminUsersForm/adminUserForm";
 
 const AdminPage = () => {
   return (
@@ -18,6 +18,7 @@ const AdminPage = () => {
             <AdminPostForm />
         </div>
       </div>
+      
       <div className={styles.row}>
         <div className={styles.column}>
           <Suspense fallback={<div>Loading...</div>}>
